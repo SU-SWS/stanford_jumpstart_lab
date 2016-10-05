@@ -687,9 +687,9 @@ function stanford_jsl_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'stanford_jsl_layouts-2' => array(
+        'stanford_jsl_layouts-3' => array(
           'module' => 'menu_block',
-          'delta' => 'stanford_jsl_layouts-2',
+          'delta' => 'stanford_jsl_layouts-3',
           'region' => 'navigation',
           'weight' => '-10',
         ),
