@@ -4,6 +4,8 @@
  * For all things custom with the stanford jumpstart lab product.
  */
 
+include_once "stanford_jumpstart_lab.views_alter.inc";
+
 /**
  * Implements hook_help().
  */
@@ -17,4 +19,12 @@ function stanford_jumpstart_lab_help($path, $arg) {
     case 'jumpstart_lab':
       return '<p>' . t('Needs Work %email', array('%email' => l('SWS','mailto:sitesjumpstart-help@lists.stanford.edu'))) . '</p>';
   }
+}
+
+
+/**
+ * Implements hook_views_api().
+ */
+function stanford_jumpstart_lab_views_api($module = NULL, $api = NULL) {
+  return array("api" => "3.0");
 }
