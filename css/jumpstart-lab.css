@@ -2,3 +2,7 @@
   float: right;
   margin-top: 6px;
 }
+
+body.header-bkg-text-light #block-search-form form#search-block-form input.search-query {
+  background-color: #fff;
+}
