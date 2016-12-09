@@ -732,7 +732,9 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'convert from stanford_slide'.
   $permissions['convert from stanford_slide'] = array(
     'name' => 'convert from stanford_slide',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'node_convert',
   );
 
@@ -838,7 +840,9 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'convert to stanford_slide'.
   $permissions['convert to stanford_slide'] = array(
     'name' => 'convert to stanford_slide',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'node_convert',
   );
 
@@ -858,6 +862,8 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'create any stanford_big_text_block bean',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
     ),
     'module' => 'bean',
   );
@@ -876,7 +882,11 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'create any stanford_icon_block bean'.
   $permissions['create any stanford_icon_block bean'] = array(
     'name' => 'create any stanford_icon_block bean',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
     'module' => 'bean',
   );
 
@@ -918,6 +928,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'create any stanford_testimonial_block bean',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'bean',
   );
@@ -936,6 +947,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'create stanford_course content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
       'site owner' => 'site owner',
     ),
     'module' => 'node',
@@ -985,6 +997,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'create stanford_gallery content',
     'roles' => array(
       'administrator' => 'administrator',
+      'site owner' => 'site owner',
     ),
     'module' => 'node',
   );
@@ -1045,7 +1058,11 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'create stanford_slide content'.
   $permissions['create stanford_slide content'] = array(
     'name' => 'create stanford_slide content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
     'module' => 'node',
   );
 
@@ -1102,6 +1119,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'delete any stanford_big_text_block bean',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
       'site owner' => 'site owner',
     ),
     'module' => 'bean',
@@ -1171,6 +1189,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'delete any stanford_gallery content',
     'roles' => array(
       'administrator' => 'administrator',
+      'site owner' => 'site owner',
     ),
     'module' => 'node',
   );
@@ -1178,7 +1197,11 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'delete any stanford_icon_block bean'.
   $permissions['delete any stanford_icon_block bean'] = array(
     'name' => 'delete any stanford_icon_block bean',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
     'module' => 'bean',
   );
 
@@ -1257,7 +1280,10 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'delete any stanford_slide content'.
   $permissions['delete any stanford_slide content'] = array(
     'name' => 'delete any stanford_slide content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
+    ),
     'module' => 'node',
   );
 
@@ -1277,6 +1303,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'delete any stanford_testimonial_block bean',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
       'site owner' => 'site owner',
     ),
     'module' => 'bean',
@@ -1323,6 +1350,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'delete own stanford_course content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
       'site owner' => 'site owner',
     ),
     'module' => 'node',
@@ -1371,6 +1399,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'delete own stanford_gallery content',
     'roles' => array(
       'administrator' => 'administrator',
+      'site owner' => 'site owner',
     ),
     'module' => 'node',
   );
@@ -1422,6 +1451,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'delete own stanford_publication content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
       'site owner' => 'site owner',
     ),
     'module' => 'node',
@@ -1430,7 +1460,11 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'delete own stanford_slide content'.
   $permissions['delete own stanford_slide content'] = array(
     'name' => 'delete own stanford_slide content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
     'module' => 'node',
   );
 
@@ -1456,7 +1490,9 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'delete terms in fellowship_location'.
   $permissions['delete terms in fellowship_location'] = array(
     'name' => 'delete terms in fellowship_location',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'taxonomy',
   );
 
@@ -1483,7 +1519,9 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'delete terms in stanford_affiliate_organization_type'.
   $permissions['delete terms in stanford_affiliate_organization_type'] = array(
     'name' => 'delete terms in stanford_affiliate_organization_type',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'taxonomy',
   );
 
@@ -1587,7 +1625,9 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'delete terms in tags'.
   $permissions['delete terms in tags'] = array(
     'name' => 'delete terms in tags',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'taxonomy',
   );
 
@@ -1788,6 +1828,8 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'edit any stanford_gallery content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
     ),
     'module' => 'node',
   );
@@ -1795,7 +1837,11 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'edit any stanford_icon_block bean'.
   $permissions['edit any stanford_icon_block bean'] = array(
     'name' => 'edit any stanford_icon_block bean',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
     'module' => 'bean',
   );
 
@@ -1879,7 +1925,11 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'edit any stanford_slide content'.
   $permissions['edit any stanford_slide content'] = array(
     'name' => 'edit any stanford_slide content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
     'module' => 'node',
   );
 
@@ -1965,6 +2015,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'edit own stanford_course content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
       'site owner' => 'site owner',
     ),
     'module' => 'node',
@@ -2015,6 +2066,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'edit own stanford_gallery content',
     'roles' => array(
       'administrator' => 'administrator',
+      'site owner' => 'site owner',
     ),
     'module' => 'node',
   );
@@ -2024,6 +2076,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'edit own stanford_landing_page content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
       'site owner' => 'site owner',
     ),
     'module' => 'node',
@@ -2075,7 +2128,11 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'edit own stanford_slide content'.
   $permissions['edit own stanford_slide content'] = array(
     'name' => 'edit own stanford_slide content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
     'module' => 'node',
   );
 
@@ -2091,7 +2148,9 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'edit terms in fellowship_location'.
   $permissions['edit terms in fellowship_location'] = array(
     'name' => 'edit terms in fellowship_location',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'taxonomy',
   );
 
@@ -2118,7 +2177,9 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'edit terms in stanford_affiliate_organization_type'.
   $permissions['edit terms in stanford_affiliate_organization_type'] = array(
     'name' => 'edit terms in stanford_affiliate_organization_type',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'taxonomy',
   );
 
@@ -2222,7 +2283,9 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'edit terms in tags'.
   $permissions['edit terms in tags'] = array(
     'name' => 'edit terms in tags',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'taxonomy',
   );
 
@@ -2611,7 +2674,11 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
   // Exported permission: 'view any stanford_icon_block bean'.
   $permissions['view any stanford_icon_block bean'] = array(
     'name' => 'view any stanford_icon_block bean',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
     'module' => 'bean',
   );
 
