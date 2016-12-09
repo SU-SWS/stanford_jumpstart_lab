@@ -699,6 +699,12 @@ function stanford_jsl_layouts_context_default_contexts() {
           'region' => 'search_box',
           'weight' => '-10',
         ),
+        'bean-jumpstart-lab-footer-logo-block' => array(
+          'module' => 'bean',
+          'delta' => 'jumpstart-lab-footer-logo-block',
+          'region' => 'footer',
+          'weight' => '0',
+        ),
         'menu-menu-footer-about-menu' => array(
           'module' => 'menu',
           'delta' => 'menu-footer-about-menu',
