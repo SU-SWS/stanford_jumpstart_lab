@@ -459,39 +459,6 @@ function stanford_jsl_layouts_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
-  $context->name = 'people_administrators';
-  $context->description = 'Administrators page in People section';
-  $context->tag = 'People';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'people/administrators' => 'people/administrators',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'bean-jumpstart-contact-us-postcard' => array(
-          'module' => 'bean',
-          'delta' => 'jumpstart-contact-us-postcard',
-          'region' => 'sidebar_first',
-          'weight' => '5',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('Administrators page in People section');
-  t('People');
-  $export['people_administrators'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
   $context->name = 'people_faculty';
   $context->description = 'Faculty page in People section';
   $context->tag = 'People';
@@ -562,39 +529,6 @@ function stanford_jsl_layouts_context_default_contexts() {
   t('Graduate Students page in People section');
   t('People');
   $export['people_grad_students'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
-  $context->name = 'people_staff';
-  $context->description = 'Staff page in the People section';
-  $context->tag = 'Staff';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'people/staff' => 'people/staff',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'bean-jumpstart-contact-us-postcard' => array(
-          'module' => 'bean',
-          'delta' => 'jumpstart-contact-us-postcard',
-          'region' => 'sidebar_first',
-          'weight' => '6',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('Staff');
-  t('Staff page in the People section');
-  $export['people_staff'] = $context;
 
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
