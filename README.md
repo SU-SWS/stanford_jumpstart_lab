@@ -1,5 +1,5 @@
 #[Stanford Jumpstart Lab](https://github.com/SU-SWS/stanford_jumpstart_lab)
-##### Version: 7.x-5.0-dev
+##### Version: 7.x-5.0-alpha1
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)
 
@@ -13,6 +13,9 @@ Sub Modules
 
 **[Stanford JSL Layouts](modules/stanford_jsl_layouts)**
 This module contains a number of contexts that provide page layout options for the home page and internal pages.
+
+**[Stanford JSL Permissions](modules/stanford_jumpstart_lab_permissions)**
+This module contains the permissions for all of the features and user roles.
 
 Installation
 ---

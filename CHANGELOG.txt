@@ -1,7 +1,6 @@
 Stanford Sites Jumpstart Lab x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
-7.x-5.x                                   2016-10-05
+7.x-5.0-alpha1                             2017-01-24
 -----------------------------------------------------
-
-Initial release, closely following Stanford Sites Jumpstart Academic.
+- Initial release
