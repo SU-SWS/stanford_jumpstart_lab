@@ -114,6 +114,7 @@ function stanford_jumpstart_lab_permissions_user_default_permissions() {
     'name' => 'access site reports',
     'roles' => array(
       'administrator' => 'administrator',
+      'site owner' => 'site owner',
     ),
     'module' => 'system',
   );
