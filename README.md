@@ -1,5 +1,5 @@
-#[Stanford Jumpstart Lab](https://github.com/SU-SWS/stanford_jumpstart_lab)
-##### Version: 7.x-6.0-alpha1
+# [Stanford Jumpstart Lab](https://github.com/SU-SWS/stanford_jumpstart_lab)
+##### Version: 7.x-6.1-dev
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama), [pookmish](https://github.com/pookmish), [boznik](https://github.com/boznik)
 
